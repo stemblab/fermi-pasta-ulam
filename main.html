@@ -1,0 +1,73 @@
+<div id="text">
+
+  <h2>Fermi Pasta Ulam: the paradox that launched scientific computing</h2>
+
+  <div class="left_col">
+
+    <span class="firstcharacter">1</span> In the 1950s the most
+    powerful computer in the world, the
+    <span class="pz_text" ref="maniac_note">MANIAC</span>, turned to
+    the problem of vibrations in a lattice (<span class="pz_text"
+    ref="browser_note">as your __browser__ is now</span>).  The model
+    was simple---equal masses connected by nonlinear springs.  (Red
+    masses are faster.)
+
+  </div>
+
+  <div class="pz_note" id="maniac_note">
+    [http://en.wikipedia.org/wiki/MANIAC_I, Mathematical Analyzer,
+    Numerical Integrator And Computer].
+  </div>
+
+  <div class="pz_note" id="browser_note">
+    See the code below for the precise problem definition. Feel free
+    to edit the code, save, and share the new link.
+  </div>
+
+  <div class="right_col">
+    <span class="firstcharacter">2</span> So began a scientific
+    revolution---computer simulation of mathematical and physical
+    systems. And there was more. The system displayed *extraordinary
+    and unexpected behaviour*:
+    <span class="pz_text" ref="fpu_note">the FPU paradox</span>.
+  </div>
+
+  <div class="pz_note" id="fpu_note">
+    Often called the
+    [http://en.wikipedia.org/wiki/Fermi-Pasta-Ulam_problem, FPU
+    __problem__], but initially regarded as a baffling paradox.
+  </div>
+
+  <div class="clear"></div>
+
+  <div id="ms_container"></div>
+
+  <div class="left_col">
+    <span class="firstcharacter">3</span> The researchers expected the
+    system's energy to "thermalize"---to (ultimately) spread evenly
+    among every harmonic.  But, by chance, they discovered that it
+    didn't.
+  </div>
+
+  <div class="right_col">
+    <span class="firstcharacter">4</span> Instead, they found that the
+    initial condition repeated (somewhat) periodically. The resolution
+    of the paradox lead to two jewels of nonlinear theory: [b00f0,
+    solitons] and [http://en.wikipedia.org/wiki/Chaos_theory, chaos].
+  </div>
+
+  <div class="clear"></div>
+
+  <hr/>
+  
+  <br/>
+  
+  <div class="left_col">
+    <div data-file="main.coffee"></div>
+  </div>    
+
+  <div class="right_col">
+    <div data-eval="main.coffee"></div>
+  </div>
+
+</div>
