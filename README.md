@@ -1,4 +1,1 @@
-fermi-pasta-ulam
-================
-
-The paradox that launched scientific computing.
+![](https://github.com/stemblab/fermi-pasta-ulam/blob/gh-pages/thumb.png)
